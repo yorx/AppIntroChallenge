@@ -10,12 +10,10 @@ import UIKit
 
 class InicioViewCoordinator {
     
-    static func nav () -> UINavigationController{
-            return UINavigationController(rootViewController: view())
-    }
-
-    static func view()-> UIViewController{
-        return InicioViewController()
+    static func view(label: String? = "")-> UIViewController{
+        let vc = InicioViewController()
+        vc.coche = label
+        return vc
     }
     
     

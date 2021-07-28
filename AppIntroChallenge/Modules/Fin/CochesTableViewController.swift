@@ -37,9 +37,13 @@ extension CochesTableViewController : UITableViewDataSource{
         return cellCars
     }
     
-    
 }
 
 extension CochesTableViewController : UITableViewDelegate{
     
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let newViewController = InicioViewCoordinator.view(label: self.coches[indexPath.row])
+        self.navigationController?.pushViewController(newViewController, animated: true)
+    }
 }
