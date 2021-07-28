@@ -14,6 +14,11 @@
 		69A5C90B26B1B26C0038D9AF /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A5C90926B1B26C0038D9AF /* InicioViewController.swift */; };
 		69A5C90C26B1B26C0038D9AF /* InicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A5C90A26B1B26C0038D9AF /* InicioViewController.xib */; };
 		69A5C90E26B1B3D90038D9AF /* InicioViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A5C90D26B1B3D90038D9AF /* InicioViewCoordinator.swift */; };
+		69A5C91226B1B6440038D9AF /* CochesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A5C91026B1B6440038D9AF /* CochesTableViewController.swift */; };
+		69A5C91326B1B6440038D9AF /* CochesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A5C91126B1B6440038D9AF /* CochesTableViewController.xib */; };
+		69A5C91526B1B6590038D9AF /* CochesTableViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A5C91426B1B6590038D9AF /* CochesTableViewCoordinator.swift */; };
+		69A5C91B26B1BBB60038D9AF /* CocheTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A5C91926B1BBB60038D9AF /* CocheTableViewCell.swift */; };
+		69A5C91C26B1BBB60038D9AF /* CocheTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A5C91A26B1BBB60038D9AF /* CocheTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		69A5C90926B1B26C0038D9AF /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
 		69A5C90A26B1B26C0038D9AF /* InicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InicioViewController.xib; sourceTree = "<group>"; };
 		69A5C90D26B1B3D90038D9AF /* InicioViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewCoordinator.swift; sourceTree = "<group>"; };
+		69A5C91026B1B6440038D9AF /* CochesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CochesTableViewController.swift; sourceTree = "<group>"; };
+		69A5C91126B1B6440038D9AF /* CochesTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CochesTableViewController.xib; sourceTree = "<group>"; };
+		69A5C91426B1B6590038D9AF /* CochesTableViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CochesTableViewCoordinator.swift; sourceTree = "<group>"; };
+		69A5C91926B1BBB60038D9AF /* CocheTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocheTableViewCell.swift; sourceTree = "<group>"; };
+		69A5C91A26B1BBB60038D9AF /* CocheTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CocheTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,7 @@
 		69A5C90526B1B0570038D9AF /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				69A5C90F26B1B5AD0038D9AF /* Fin */,
 				69A5C90826B1B2450038D9AF /* Inicio */,
 			);
 			path = Modules;
@@ -92,6 +103,26 @@
 				69A5C90D26B1B3D90038D9AF /* InicioViewCoordinator.swift */,
 			);
 			path = Inicio;
+			sourceTree = "<group>";
+		};
+		69A5C90F26B1B5AD0038D9AF /* Fin */ = {
+			isa = PBXGroup;
+			children = (
+				69A5C91626B1BB850038D9AF /* CochesCell */,
+				69A5C91026B1B6440038D9AF /* CochesTableViewController.swift */,
+				69A5C91126B1B6440038D9AF /* CochesTableViewController.xib */,
+				69A5C91426B1B6590038D9AF /* CochesTableViewCoordinator.swift */,
+			);
+			path = Fin;
+			sourceTree = "<group>";
+		};
+		69A5C91626B1BB850038D9AF /* CochesCell */ = {
+			isa = PBXGroup;
+			children = (
+				69A5C91926B1BBB60038D9AF /* CocheTableViewCell.swift */,
+				69A5C91A26B1BBB60038D9AF /* CocheTableViewCell.xib */,
+			);
+			path = CochesCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +183,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				69A5C90C26B1B26C0038D9AF /* InicioViewController.xib in Resources */,
+				69A5C91C26B1BBB60038D9AF /* CocheTableViewCell.xib in Resources */,
 				69A5C8FD26B1ADD20038D9AF /* LaunchScreen.storyboard in Resources */,
+				69A5C91326B1B6440038D9AF /* CochesTableViewController.xib in Resources */,
 				69A5C8FA26B1ADD20038D9AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,7 +199,10 @@
 			files = (
 				69A5C90E26B1B3D90038D9AF /* InicioViewCoordinator.swift in Sources */,
 				69A5C90726B1B0700038D9AF /* AppCoordinator.swift in Sources */,
+				69A5C91526B1B6590038D9AF /* CochesTableViewCoordinator.swift in Sources */,
 				69A5C90B26B1B26C0038D9AF /* InicioViewController.swift in Sources */,
+				69A5C91B26B1BBB60038D9AF /* CocheTableViewCell.swift in Sources */,
+				69A5C91226B1B6440038D9AF /* CochesTableViewController.swift in Sources */,
 				69A5C8F126B1ADD10038D9AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

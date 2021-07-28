@@ -17,7 +17,7 @@ final class AppCoordinator: AppCoordinatorInterface {
     private var initialViewController = UIViewController()
     
     func showInitialVC(window: UIWindow) {
-        initialViewController = InicioViewCoordinator.nav()
+        initialViewController = CochesTableViewCoordinator.nav()
         window.rootViewController = initialViewController
         window.makeKeyAndVisible()
     }

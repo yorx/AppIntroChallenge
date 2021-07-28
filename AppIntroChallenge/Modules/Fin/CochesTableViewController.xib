@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CochesTableViewController" customModule="AppIntroChallenge" customModuleProvider="target">
+            <connections>
+                <outlet property="carsTable" destination="nEL-BR-4cu" id="5Vi-35-917"/>
+                <outlet property="view" destination="wQN-7t-CGN" id="3ap-vY-U3V"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="wQN-7t-CGN">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nEL-BR-4cu">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="0C5-dR-eV2"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="nEL-BR-4cu" firstAttribute="leading" secondItem="0C5-dR-eV2" secondAttribute="leading" id="Xve-Hm-ysx"/>
+                <constraint firstItem="nEL-BR-4cu" firstAttribute="top" secondItem="0C5-dR-eV2" secondAttribute="top" id="auI-Vd-Fhs"/>
+                <constraint firstItem="0C5-dR-eV2" firstAttribute="trailing" secondItem="nEL-BR-4cu" secondAttribute="trailing" id="mCm-8q-wMs"/>
+                <constraint firstItem="0C5-dR-eV2" firstAttribute="bottom" secondItem="nEL-BR-4cu" secondAttribute="bottom" id="pkL-CR-ctn"/>
+            </constraints>
+            <point key="canvasLocation" x="262" y="-510"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
